@@ -1,5 +1,11 @@
+import Layout from "@/components/Layout";
+
 const HomePage = () => {
-  return <div className="text-6xl">HomePage</div>;
+  return (
+    <Layout>
+      <h1>Home Page</h1>
+    </Layout>
+  );
 };
 
 export default HomePage;
