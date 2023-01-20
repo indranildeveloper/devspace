@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Header from "./Header";
 
 const Layout = ({ title, keywords, description, children }) => {
   return (
@@ -9,7 +10,7 @@ const Layout = ({ title, keywords, description, children }) => {
         <meta name="description" content={description} />
         <meta name="keywords" content={keywords} />
       </Head>
-
+      <Header />
       <main className="container mx-auto my-8">{children}</main>
     </div>
   );
