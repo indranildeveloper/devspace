@@ -3,6 +3,7 @@ import path from "path";
 import matter from "gray-matter";
 import Layout from "@/components/Layout";
 import Post from "@/components/Post";
+import Pagination from "@/components/Pagination";
 import { sortByDate } from "@/utils/index";
 import { POSTS_PER_PAGE } from "@/config/index";
 
@@ -66,6 +67,7 @@ const BlogPage = ({ posts, numPages, currentPage }) => {
           <Post key={index} post={post} />
         ))}
       </div>
+      <Pagination currentPage={currentPage} numPages={numPages} />
     </Layout>
   );
 };
