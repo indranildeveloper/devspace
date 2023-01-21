@@ -4,7 +4,7 @@ import CategoryLabel from "./CategoryLabel";
 
 const Post = ({ post }) => {
   return (
-    <div className="w-full px-10 py-10 bg-white rounded-md shadow-md mt-6">
+    <div className="w-full px-10 py-10 border bg-white rounded-md shadow-md mt-6">
       <Image
         src={post.frontmatter.cover_image}
         alt={post.slug}

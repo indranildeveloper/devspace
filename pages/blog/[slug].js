@@ -45,7 +45,12 @@ const PostPage = ({
 }) => {
   return (
     <Layout title={title}>
-      <Link href="/blog">Go Back</Link>
+      <Link
+        className="border-2 px-4 py-2 rounded-md border-gray-900 text-gray-900 transition-all duration-300 hover:bg-gray-900 hover:text-white"
+        href="/blog"
+      >
+        Go Back
+      </Link>
       <div className="w-full shadow-md px-10 py-6 bg-white rounded-md mt-6">
         <div className="flex justify-between items-center mt-4">
           <h1 className="text-4xl mb-6">{title}</h1>
