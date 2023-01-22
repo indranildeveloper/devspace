@@ -23,7 +23,7 @@ const HomePage = ({ posts }) => {
 
       <Link
         href="/blog"
-        className="block text-center border border-gray-500 text-gray-800 rounded-md py-4 my-5 transition duration-500 ease-in select-none hover:text-white hover:bg-gray-900 focus:outline-none focus:shadow w-full"
+        className="block text-center border-2 border-gray-500 text-gray-800 rounded-md py-4 my-5 transition duration-300 ease-in select-none hover:text-white hover:bg-gray-900 focus:outline-none focus:shadow w-full"
       >
         More Posts
       </Link>
